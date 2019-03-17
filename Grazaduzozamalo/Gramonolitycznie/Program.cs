@@ -14,7 +14,7 @@ namespace Gramonolitycznie
 
             Console.Write("Podaj swoje imię: ");
             string imie = Console.ReadLine();
-            Console.WriteLine($"Witaj {imie} !!!");
+            Console.WriteLine($"Cześć {imie} !!!");
 
         }
     }
