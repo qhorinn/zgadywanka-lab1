@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gramonolitycznie", "Gramonolitycznie\Gramonolitycznie.csproj", "{F5EAD83E-9486-4D90-9009-30ED1FBD0B2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraMonolitycznie", "..\..\..\..\Source\Repos\qhorinn\zgadywanka-lab1\Grazaduzozamalo\Gramonolitycznie\GraMonolitycznie.csproj", "{F5EAD83E-9486-4D90-9009-30ED1FBD0B2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraProceduralnie", "..\..\..\..\Source\Repos\qhorinn\zgadywanka-lab1\Grazaduzozamalo\GraProceduralnie\GraProceduralnie.csproj", "{BE4FB18E-A632-4112-8E0C-267B86E34558}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelGry", "..\..\..\..\source\repos\ModelGry\ModelGry\ModelGry.csproj", "{4F552B28-34BC-4163-BFD2-18F99ACC6723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProjectModelGry", "..\..\..\..\source\repos\ModelGry\UnitTestProjectModelGry\UnitTestProjectModelGry.csproj", "{408B8C48-AB7A-4E79-958D-724605B5EF6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{F5EAD83E-9486-4D90-9009-30ED1FBD0B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5EAD83E-9486-4D90-9009-30ED1FBD0B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5EAD83E-9486-4D90-9009-30ED1FBD0B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4FB18E-A632-4112-8E0C-267B86E34558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4FB18E-A632-4112-8E0C-267B86E34558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4FB18E-A632-4112-8E0C-267B86E34558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4FB18E-A632-4112-8E0C-267B86E34558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F552B28-34BC-4163-BFD2-18F99ACC6723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F552B28-34BC-4163-BFD2-18F99ACC6723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F552B28-34BC-4163-BFD2-18F99ACC6723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F552B28-34BC-4163-BFD2-18F99ACC6723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408B8C48-AB7A-4E79-958D-724605B5EF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408B8C48-AB7A-4E79-958D-724605B5EF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408B8C48-AB7A-4E79-958D-724605B5EF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408B8C48-AB7A-4E79-958D-724605B5EF6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
