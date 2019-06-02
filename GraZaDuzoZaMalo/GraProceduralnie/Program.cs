@@ -16,26 +16,26 @@ namespace GraMonolitycznie
         /// <returns>wartość losowa z zakresu min..max włącznie</returns>
         static int Losuj(int min = 1, int max = 100)
         {
-            if (min > max)
+            if( min > max )
             { //swap
                 int temp = min;
                 min = max;
                 max = temp;
             }
             Random generator = new Random();
-            return generator.Next(min, max + 1);
+            return generator.Next(min, max+1);
         }
 
-        static int WczytajLiczbe(string prompt = "Podaj liczbę (X aby zakończyć): ")
+        static int WczytajLiczbe( string prompt = "Podaj liczbę (X aby zakończyć): " )
         {
             int liczba = 0;
             while (true)
             {
-                Console.Write(prompt);
+                Console.Write( prompt );
                 string tekst = Console.ReadLine();
                 if (tekst.ToLower() == "x")
                     throw new OperationCanceledException("wybrano X");
-
+                
                 try
                 {
                     liczba = Convert.ToInt32(tekst);
@@ -86,7 +86,7 @@ namespace GraMonolitycznie
                 {
                     propozycja = WczytajLiczbe("Podaj swoją propozycję (X aby się poddać): ");
                 }
-                catch (OperationCanceledException)
+                catch(OperationCanceledException)
                 {
                     Console.WriteLine("Wyjście awaryjne. Poddałeś się.");
                     break;
