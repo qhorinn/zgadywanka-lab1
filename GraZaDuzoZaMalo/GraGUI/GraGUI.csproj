@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModelGry\ModelGry.csproj">
+      <Project>{e1fcee59-be69-48a7-a3f0-bcba5a7cc12f}</Project>
+      <Name>ModelGry</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
