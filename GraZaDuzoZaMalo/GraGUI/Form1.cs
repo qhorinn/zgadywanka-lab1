@@ -32,8 +32,16 @@ namespace GraGUI
             //try-catch
             int a = int.Parse(textBoxZakresOd.Text);
             int b = int.Parse(textBoxZakresDo.Text);
-
+            label1.Visible = Enabled;
+            textBox1.Visible = Enabled;
+            button1.Visible = Enabled;
+            
             g = new Gra(a, b);
+        }
+
+        private void textBoxZakresOd_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
